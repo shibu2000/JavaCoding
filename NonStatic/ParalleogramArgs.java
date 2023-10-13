@@ -1,0 +1,15 @@
+class ParalleogramArgs
+{
+	void shape(double a,double b)
+	{
+		System.out.println("Object created :)");
+		double c=a*b;
+		System.out.println("--From the Area class--");
+		System.out.println("The Paralleogram areais"+c);
+	}
+	public static void main(String[] args)
+	{
+		new ParalleogramArgs().shape(2.00,3.00);
+	}
+
+}

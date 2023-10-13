@@ -1,0 +1,18 @@
+class TwoNo
+{
+	static int x=10;
+	static void add(){
+		int a =5;
+		int b=4;
+		b=a+b;
+		System.out.println("From another class");
+		System.out.println("The addition is: "+b);
+	}
+}
+class Addition
+{
+	public static void main(String[] args){
+		System.out.println("(TwoNo) value is: "+TwoNo.x);
+		TwoNo.add();
+	}
+}

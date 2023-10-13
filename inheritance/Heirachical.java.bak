@@ -1,0 +1,32 @@
+class Father{
+    static String hairType="Straight";
+    static String bldTyp="AB+";
+    void details01(){
+        System.out.println("Father's hair type: "+hairType+" and Blood Type: "+bldTyp);
+		System.out.println("========================================================");
+		
+    }
+}
+class Son extends Father{
+    void details02(){
+        super.details01();
+        System.out.println("Son's hair type: "+hairType+" and Blood Type: "+bldTyp);
+		System.out.println("========================================================");
+    }
+}
+class Doughter extends Father{
+    static String bldTyp02="A+";
+    void details03(){
+        System.out.println("Doughter's hair type: "+hairType+" and Blood type "+bldTyp02);
+		System.out.println("========================================================");
+    }
+
+}
+class Heirachical {
+    public static void main(String[] args) {
+        Doughter d1=new Doughter();
+        Son s1=new Son();
+        d1.details03();
+        s1.details02();
+    }
+}

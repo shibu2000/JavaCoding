@@ -1,0 +1,15 @@
+class Circle
+{
+	double pi=3.142;
+	void area(){
+		System.out.println("Object created :)");
+		int r=5;
+		double area=pi*r*r;
+		System.out.println("From another class");
+		System.out.println("The area of circle is: "+area);
+	}
+	public static void main(String[] args){
+		System.out.println("PI value is: "+new Circle().pi);
+		new Circle().area();
+	}
+}

@@ -1,0 +1,17 @@
+class Area
+{
+	static void area(int side)
+	{
+		int result = side*side;
+		System.out.println("From the Area class");
+		System.out.println("The Area of Square is "+result);
+	}
+}
+class SquareArguments
+{
+	public static void main(String[]args)
+	{
+		Area.area(5);
+	}
+}
+			

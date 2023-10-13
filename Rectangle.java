@@ -1,0 +1,14 @@
+class Area
+{
+	static int area(int w, int h){
+		int cal=w*h;
+		return cal;
+	}
+}
+class Rectangle
+{
+	public static void main(String[] args){
+		int res=Area.area(5,6);
+		System.out.println("The area of triangle is: "+res);
+	}
+} 

@@ -1,0 +1,8 @@
+class College
+{
+	String s;
+	char g;
+	public static void main(String[] args){
+		College c1=new College();
+	}
+}

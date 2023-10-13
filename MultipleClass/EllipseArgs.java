@@ -1,0 +1,17 @@
+class Area
+{
+	static void area(double a,double b)
+	{
+		double pi=3.14;
+		double area=pi*a*b;
+		System.out.println("---From the Area class---");
+		System.out.println("area of Ellipse: "+area);
+	}
+}
+class EllipseArgs
+{
+	public static void main(String[]args)
+	{
+		Area.area(10.3,20.5);
+	}
+}

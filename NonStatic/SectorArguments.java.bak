@@ -1,0 +1,18 @@
+class Area
+{
+	void area(int radius)
+	{
+		double theta = 1.73;
+		double result = 0.5*radius*radius*theta;
+		System.out.println("From the Area class");
+		System.out.println("The Area of Sector is "+result);
+	}
+}
+class SectorArguments
+{
+	public static void main(String[]args)
+	{
+		Area.new Area().area(7);
+	}
+
+}
